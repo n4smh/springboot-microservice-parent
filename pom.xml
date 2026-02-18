@@ -7,11 +7,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.1</version>
+		<version>4.0.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>in.n4smh.microservices</groupId>
+	<groupId>in.n4smh.microservices.person</groupId>
 	<artifactId>parent-pom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ParentPOM</name>
