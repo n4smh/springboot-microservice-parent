@@ -16,15 +16,15 @@
 
 	<packaging>pom</packaging>
 
-	<scm>
+	<!--<scm>
 		<developerConnection>scm:git:https://github.com/n4smh/person-parent-pom.git</developerConnection>
-  	</scm>
+  	</scm>-->
 	
 	<properties>
 		<java.version>21</java.version>
 
 		<nexus-maven-host>localhost:8081</nexus-maven-host>
-		<nexus-docker-host>localhost:8082</nexus-docker-host>
+		<nexus-docker-host>localhost:8081</nexus-docker-host>
 		<nexus-release-url>http://${nexus-maven-host}/repository/maven-releases/</nexus-release-url>
 		<nexus-snapshot-url>http://${nexus-maven-host}/repository/maven-snapshots/</nexus-snapshot-url>
 		<nexus-docker-path>${nexus-docker-host}/docker-hosted/</nexus-docker-path>
@@ -155,11 +155,11 @@
 				</executions>
 			</plugin>
 
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>${maven-release-plugin.version}</version>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 
